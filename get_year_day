@@ -1,0 +1,7 @@
+minutes = int(input("please enter the number of minutes: \n"))
+A_day_in_minutes = 60 * 24
+A_year_in_minutes = 365 * A_day_in_minutes
+Number_of_years = minutes // A_year_in_minutes
+Number_of_days = (minutes % A_year_in_minutes) // A_day_in_minutes
+
+print(minutes, "minutes is approximately", Number_of_years, "years and", Number_of_days, "days")
